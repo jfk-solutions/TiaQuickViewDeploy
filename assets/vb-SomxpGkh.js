@@ -1,0 +1,1 @@
+import{n as o,t as a}from"./monaco-monaco-lite-DPvZWU15.js";export{a as conf,o as language};

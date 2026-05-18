@@ -1,0 +1,121 @@
+{
+  "id": "./",
+  "name": "TIA QuickView",
+  "short_name": "TIA QuickView",
+  "description": "Browse TIA Portal, Step7, Step5 and HMI project files in the browser.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#eef4f6",
+  "theme_color": "#0f6f87",
+  "icons": [
+    {
+      "src": "./tiaQuickViewIcon-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "./tiaQuickViewIcon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./tiaQuickViewIcon.webp",
+      "sizes": "1254x1254",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "name": "TIA, Step7, Step5 and HMI project files",
+      "accept": {
+        "application/octet-stream": [
+          ".zip",
+          ".plf",
+          ".hmi",
+          ".pdb",
+          ".pdl",
+          ".mdf",
+          ".mcp",
+          ".s7p",
+          ".s7l",
+          ".s5d",
+          ".s5",
+          ".zap21",
+          ".zap20",
+          ".zap19",
+          ".zap18",
+          ".zap17",
+          ".zap16",
+          ".zap15",
+          ".zap14",
+          ".zap13",
+          ".zap12",
+          ".zap11",
+          ".zap10",
+          ".zal21",
+          ".zal20",
+          ".zal19",
+          ".zal18",
+          ".zal17",
+          ".zal16",
+          ".zal15",
+          ".zal14",
+          ".zal13",
+          ".zal12",
+          ".zal11",
+          ".zal10",
+          ".ap21",
+          ".ap20",
+          ".ap19",
+          ".ap18",
+          ".ap17",
+          ".ap16",
+          ".ap15",
+          ".ap14",
+          ".ap13",
+          ".ap12",
+          ".ap11",
+          ".ap10",
+          ".al21",
+          ".al20",
+          ".al19",
+          ".al18",
+          ".al17",
+          ".al16",
+          ".al15",
+          ".al14",
+          ".al13",
+          ".al12",
+          ".al11",
+          ".al10"
+        ],
+        "application/zip": [".zip"],
+        "application/x-zip-compressed": [".zip"]
+      },
+      "icons": [
+        {
+          "src": "./tiaQuickViewIcon-192.webp",
+          "sizes": "192x192",
+          "type": "image/webp"
+        },
+        {
+          "src": "./tiaQuickViewIcon-512.webp",
+          "sizes": "512x512",
+          "type": "image/webp"
+        },
+        {
+          "src": "./tiaQuickViewIcon.webp",
+          "sizes": "1254x1254",
+          "type": "image/webp"
+        }
+      ],
+      "launch_type": "single-client"
+    }
+  ]
+}
